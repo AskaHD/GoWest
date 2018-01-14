@@ -1,0 +1,53 @@
+/*Index => Scroll smooth sur toute la page, incompatible IE et safari => prévoir des médias
+@TO-DO : smooth scroll pour IE/Safari/Mobiles*/
+
+body{
+    scroll-behavior: smooth;
+}
+
+/*Index => navbar*/
+
+#navbar{
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    background-color: chartreuse;
+    z-index: 10000;
+    text-align: center;
+}
+
+#navbar a{
+    padding-right: 1rem;
+}
+
+
+/*Index => style des parties principales*/
+
+/* Enlève l'espaces entre les différentes parties du site, à enlever si on retire les <p> en haut des div */
+.container p {
+    margin: 0;
+}
+
+#carousel{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+#virtual_visit{
+    width: 100vw;
+    height: 100vh;
+    background-color: brown;
+}
+
+#models{
+    width: 100vw;
+    height: 100vh;
+    background-color: cadetblue;
+}
+
+#footer{
+    width: 100vw;
+    height: 100vh;
+    background-color: deeppink;
+}
