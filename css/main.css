@@ -46,8 +46,14 @@ body{
     background-color: cadetblue;
 }
 
+/*FOOTER*/
 #footer{
     width: 100vw;
-    height: 100vh;
+    height: 60vh;
     background-color: deeppink;
+}
+iframe
+{
+    width: 100%;
+    height: 60vh;
 }
