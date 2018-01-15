@@ -8,12 +8,12 @@ body{
 /*Index => navbar*/
 
 #navbar{
-    top: 0;
-    position: fixed;
-    width: 100vw;
-    background-color: chartreuse;
-    z-index: 10000;
-    text-align: center;
+    /*top: 0;*/
+    /*position: fixed;*/
+    /*width: 100vw;*/
+    /*background-color: chartreuse;*/
+    /*z-index: 10000;*/
+    /*text-align: center;*/
 }
 
 #navbar a{
