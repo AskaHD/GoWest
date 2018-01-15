@@ -1,8 +1,15 @@
 /*Index => Scroll smooth sur toute la page, incompatible IE et safari => prévoir des médias
 @TO-DO : smooth scroll pour IE/Safari/Mobiles*/
 
+@font-face{
+    font-family: Zilla Slab;
+    src: local("ZillaSlab-Regular"),url("../assets/fonts/zilla_slab/ZillaSlab-Regular.otf") format("opentype");
+}
+
 body{
     scroll-behavior: smooth;
+    font-family: "Zilla Slab", "Helvetica Neue", Fallback, sans-serif !important;
+    font-size: 1.4em !important;
 }
 
 /*Index => navbar*/
@@ -32,6 +39,7 @@ body{
     width: 100%;
     height: 100vh;
     background-color: aqua;
+    margin: auto;
 }
 
 #virtual_visit{

@@ -1,0 +1,25 @@
+{
+  "name": "gowest",
+  "version": "1.0.0",
+  "description": "Projet GoWest",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap.native": "^2.0.21",
+    "font-awesome": "^4.7.0",
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AskaHD/GoWest.git"
+  },
+  "author": "Quentin, Manon, Jérémy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AskaHD/GoWest/issues"
+  },
+  "homepage": "https://github.com/AskaHD/GoWest#readme"
+}
