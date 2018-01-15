@@ -55,7 +55,7 @@ body{
 }
 
 /*FOOTER*/
-#myFooter {
+#footer {
     background-color: #182c39;
     color: white;
     padding-top: 20px;
@@ -68,57 +68,57 @@ body{
     margin-bottom: 10px;
 }
 
-#myFooter .row {
+#footer .row {
     margin: 0 85px;
 }
 
-#myFooter .footer-copyright {
+#footer .footer-copyright {
     background-color: #10222e;
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;
 }
 
-#myFooter .footer-copyright p {
+#footer .footer-copyright p {
     margin: 10px;
     color: #ccc;
 }
 
-#myFooter .container {
+#footer .container {
     width: auto;
 }
 
-#myFooter ul {
+#footer ul {
     list-style-type: none;
     padding-left: 0;
     line-height: 1.7;
 }
 
-#myFooter h5 {
+#footer h5 {
     font-size: 18px;
     color: white;
     font-weight: bold;
     margin-top: 30px;
 }
 
-#myFooter a {
+#footer a {
     color: #d2d1d1;
     text-decoration: none;
 }
 
-#myFooter a:hover,
-#myFooter a:focus {
+#footer a:hover,
+#footer a:focus {
     text-decoration: none;
     color: white;
 }
 
-#myFooter .social-networks {
+#footer .social-networks {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 38px;
 }
 
-#myFooter .fa {
+#footer .fa {
     font-size: 30px;
     margin-right: 15px;
     margin-left: 20px;
@@ -134,27 +134,27 @@ body{
     transition: color 0.2s;
 }
 
-#myFooter .fa-facebook:hover {
+#footer .fa-facebook:hover {
     color: #2b55ff;
 }
 
-#myFooter .fa-facebook:focus {
+#footer .fa-facebook:focus {
     color: #2b55ff;
 }
 
-#myFooter .fa-google-plus:hover {
+#footer .fa-google-plus:hover {
     color: red;
 }
 
-#myFooter .fa-google-plus:focus {
+#footer .fa-google-plus:focus {
     color: red;
 }
 
-#myFooter .fa-twitter:hover {
+#footer .fa-twitter:hover {
     color: #00aced;
 }
 
-#myFooter .fa-twitter:focus {
+#footer .fa-twitter:focus {
     color: #00aced;
 }
 
