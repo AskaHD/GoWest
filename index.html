@@ -9,15 +9,35 @@
     <link href="./css/bootstrap/bootstrap-grid.css" rel="stylesheet">
     <link href="./node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="./css/bootstrap-social.css" rel="stylesheet">
-
 </head>
 <body>
-    <nav id="navbar" class="navbar fixed-top navbar-dark bg-dark">
-        <a href="#carousel">Accueil</a>
-        <a href="#virtual_visit">Visite virtuelle</a>
-        <a href="#models">Modèles phares</a>
-        <a href="#footer">Informations</a>
-    </nav>
+
+<!--Navigation-->
+<nav class="navbar fixed-top navbar-expand-lg bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand icone" href="#">GoWest</a>
+
+    <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link itemNavbar" href="#">Acceuil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link itemNavbar" href="#">Visite</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link itemNavbar" href="#">Nos modèles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link itemNavbar" href="#">Plan d'accés</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--Navigation End-->
+
     <div id="carousel" class="header carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -44,7 +64,6 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-
     <div class="container-fluid post-carousel">
         <div class="row">
             <div class="col-md-4">

@@ -13,20 +13,21 @@ body{
 }
 
 /*Index => navbar*/
-
-#navbar{
-    /*top: 0;*/
-    /*position: fixed;*/
-    /*width: 100vw;*/
-    /*background-color: chartreuse;*/
-    /*z-index: 10000;*/
-    /*text-align: center;*/
+.navbar {
 }
 
-#navbar a{
-    padding-right: 1rem;
+.navbar.scrolled{
+    background-color: #ffffff;
 }
 
+.itemNavbar{
+    margin-right: 1em;
+    color: #ffffff;
+}
+
+.icone{
+    color: #ffffff !important;
+}
 
 /*Index => style des parties principales*/
 
@@ -180,4 +181,3 @@ body{
 #footer .fa-twitter:focus {
     color: #00aced;
 }
-
