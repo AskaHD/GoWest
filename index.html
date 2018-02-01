@@ -11,33 +11,7 @@
     <link href="./css/bootstrap-social.css" rel="stylesheet">
 </head>
 <body>
-
-<!--Navigation-->
-<nav class="navbar fixed-top navbar-expand-lg bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand icone" href="#">GoWest</a>
-
-    <div class="collapse navbar-collapse" id="navbarToggler">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link itemNavbar" href="#">Acceuil</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link itemNavbar" href="#">Visite</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link itemNavbar" href="#">Nos modèles</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link itemNavbar" href="#">Plan d'accés</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<!--Navigation End-->
-
+    <!--Carousel-->
     <div id="carousel" class="header carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -64,25 +38,40 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+    <!--Carousel END-->
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <a class="navbar-brand" href="#">GoWest</a>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Visite</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Modèles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Plan d'accés</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Navigation End-->
+
     <div class="container-fluid post-carousel">
         <div class="row">
             <div class="col-md-4">
-                <h1 class="text-center">Point 1</h1>
-                <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus arcu a massa ullamcorper iaculis. Sed consequat eget diam et sagittis. Vivamus id purus maximus, molestie nulla non, dictum ligula. Nullam at neque maximus nulla interdum semper vulputate et metus. Curabitur elementum quam non nisl placerat, ut porta lacus laoreet. Aliquam molestie justo sit amet lorem porttitor tincidunt. Suspendisse commodo interdum diam et iaculis. Aenean ullamcorper augue orci, ut fermentum metus laoreet ut. Nam mi leo, congue quis tortor vitae, varius fringilla felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                </span>
+                <h1 class="text-center">La boutique</h1>
             </div>
             <div class="col-md-4 middle-point">
-                <h1 class="text-center">Point 2</h1>
-                <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus arcu a massa ullamcorper iaculis. Sed consequat eget diam et sagittis. Vivamus id purus maximus, molestie nulla non, dictum ligula. Nullam at neque maximus nulla interdum semper vulputate et metus. Curabitur elementum quam non nisl placerat, ut porta lacus laoreet. Aliquam molestie justo sit amet lorem porttitor tincidunt. Suspendisse commodo interdum diam et iaculis. Aenean ullamcorper augue orci, ut fermentum metus laoreet ut. Nam mi leo, congue quis tortor vitae, varius fringilla felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                </span>
+                <h1 class="text-center">Que vendons nous</h1>
             </div>
             <div class="col-md-4">
-                <h1 class="text-center">Point 3</h1>
-                <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus arcu a massa ullamcorper iaculis. Sed consequat eget diam et sagittis. Vivamus id purus maximus, molestie nulla non, dictum ligula. Nullam at neque maximus nulla interdum semper vulputate et metus. Curabitur elementum quam non nisl placerat, ut porta lacus laoreet. Aliquam molestie justo sit amet lorem porttitor tincidunt. Suspendisse commodo interdum diam et iaculis. Aenean ullamcorper augue orci, ut fermentum metus laoreet ut. Nam mi leo, congue quis tortor vitae, varius fringilla felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                </span>
+                <h1 class="text-center">Blabla</h1>
             </div>
         </div>
     </div>
@@ -109,37 +98,26 @@
     <footer id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
-                    <h5>Get started</h5>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sign up</a></li>
-                        <li><a href="#">Downloads</a></li>
-                    </ul>
+                <div class="col">
+                    <img class="img-fluid" src="assets/brand/converse.png" alt="">
                 </div>
-                <div class="col-sm-3">
-                    <h5>About us</h5>
-                    <ul>
-                        <li><a href="#">Company Information</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Reviews</a></li>
-                    </ul>
+                <div class="col">
+                    <img class="img-fluid" src="assets/brand/doc_martens.png" alt="">
                 </div>
-                <div class="col-sm-3">
-                    <h5>Support</h5>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Help desk</a></li>
-                        <li><a href="#">Forums</a></li>
-                    </ul>
+                <div class="col">
+                    <img class="img-fluid" src="assets/brand/kickers.png" alt="">
                 </div>
-                <div class="col-sm-3">
-                    <h5>Legal</h5>
-                    <ul>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
+                <div class="col">
+                    <img class="img-fluid" src="assets/brand/mustangshoes.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="assets/brand/temps_des_cerises.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="assets/brand/skechers.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="assets/brand/pataugas.png" alt="">
                 </div>
             </div>
 
@@ -152,7 +130,7 @@
             <a href="https://www.facebook.com/magasinGoWestAmiens/?ref=page_internal" class="facebook"><i class="fa fa-facebook"></i></a>
         </div>
         <div class="footer-copyright">
-            <p>© 2016 Copyright Text </p>
+            <p>© 2018 GOWEST</p>
         </div>
     </footer>
 

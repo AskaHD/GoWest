@@ -12,21 +12,13 @@ body{
     font-size: 1.4em !important;
 }
 
-/*Index => navbar*/
+/*Navbar*/
 .navbar {
-}
-
-.navbar.scrolled{
-    background-color: #ffffff;
+    background-color: #5e5e5e;
 }
 
 .itemNavbar{
-    margin-right: 1em;
     color: #ffffff;
-}
-
-.icone{
-    color: #ffffff !important;
 }
 
 /*Index => style des parties principales*/
@@ -37,7 +29,7 @@ body{
 }
 
 .carousel{
-    background-color: aqua;
+    background-color: #5e5e5e;
 }
 
 .carousel-inenr{
@@ -80,7 +72,7 @@ body{
 
 /*FOOTER*/
 #footer {
-    background-color: #182c39;
+    background-color: #59819a;
     color: white;
     padding-top: 20px;
 }
@@ -106,23 +98,6 @@ body{
 #footer .footer-copyright p {
     margin: 10px;
     color: #ccc;
-}
-
-#footer .container {
-    width: auto;
-}
-
-#footer ul {
-    list-style-type: none;
-    padding-left: 0;
-    line-height: 1.7;
-}
-
-#footer h5 {
-    font-size: 18px;
-    color: white;
-    font-weight: bold;
-    margin-top: 30px;
 }
 
 #footer a {
