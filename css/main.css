@@ -68,11 +68,31 @@ navbar {
     background-color: brown;
 }
 
-#models{
+/*MODELS*/
+.model{
     width: 100%;
     height: 100vh;
     background-color: cadetblue;
 }
+
+.model .row {
+    height: 100%;
+}
+
+.vertical-center {
+    padding: 25%;
+}
+
+.parallax {
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100%;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    background-position: -25vh center !important;
+    background-size: 100% !important;
+}
+
 
 /*FOOTER*/
 #footer {
