@@ -2,77 +2,97 @@
 @TO-DO : smooth scroll pour IE/Safari/Mobiles*/
 
 @font-face{
-    font-family: Zilla Slab;
-    src: local("ZillaSlab-Regular"),url("../assets/fonts/zilla_slab/ZillaSlab-Regular.otf") format("opentype");
+    font-family: Lato-Regular;
+    src: local("Lato-Regular"),url("../assets/fonts/lato/Lato-Regular.eot") format("embedded-opentype");
+}
+@font-face{
+    font-family: Lato-Black;
+    src: local("Lato-Black"),url("../assets/fonts/lato/Lato-Black.eot") format("embedded-opentype");
+}
+@font-face{
+    font-family: Zilla-Slab;
+    src: local("Zilla-Slab"),url("../assets/fonts/zilla_slab/ZillaSlab-Regular.otf") format("opentype");
+}
+@font-face{
+    font-family: Zilla-Slab-Bold;
+    src: local("Zilla-Slab-Bold"),url("../assets/fonts/zilla_slab/ZillaSlab-Bold.otf") format("opentype");
 }
 
 body{
     scroll-behavior: smooth;
-    font-family: "Zilla Slab", "Helvetica Neue", Fallback, sans-serif !important;
+    font-family: "Lato-Regular", "Helvetica Neue", Fallback, sans-serif !important;
     font-size: 1.4em !important;
 }
 
+h1 {
+    font-family: "Lato-Black", "Helvetica Neue", Fallback, sans-serif !important;
+}
+
+/*Index => style des parties principales*/
+
+
+.carousel{
+    background-color: #289BFF;
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 93vh;
+    margin: auto;
+}
+
+.carousel img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
 /*Navbar*/
-navbar {
-    background-color: #ffffff;
+.navbar {
+    background-color: #FFF375;
     height: 3em;
 }
 
-.sloganContainer{
-    background-color: #5e5e5e;
-    height: 8em;
+/* Overwrite la couleur des liens bootstrap */
+.nav-link{
+    color: #007bff !important;
 }
+
+/* Post-Carousel*/
+
+.flex-row{
+    display: flex;
+    align-items: center;
+}
+
 .sloganCard{
     width: 10em;
     margin-top: 1em;
+}
+.sloganCard > .card{
+    border-radius: 3rem;
 }
 .slogan{
     font-size: 1.2rem;
 }
 
-.itemNavbar{
-    color: #ffffff;
-}
-
-/*Index => style des parties principales*/
-
-/* Enlève l'espaces entre les différentes parties du site, à enlever si on retire les <p> en haut des div */
-.container p {
-    margin: 0;
-}
-
-.carousel{
-    background-color: #5e5e5e;
-}
-
-.carousel-inner{
-    width: 100%;
-    height: 70vh;
-    margin: auto;
-}
-
-.carousel img{
-    object-fit: contain;
-    width: 100%;
-    max-height: 80vh;
-}
-
-.middle-point{
-    border-left: thick solid brown;
-    border-right: thick solid brown;
-}
-
 #virtual_visit{
-    width: 100%;
-    height: 100vh;
-    background-color: brown;
+    text-align: center;
+    background: url("../assets/desert-background-hdFLOU.jpg");
+}
+
+.visit{
+    margin: 1rem;
+    width: 75vw;
+    height: 75vh;
+    border: 0;
+    box-shadow: 0 0.1rem 0.5rem;
 }
 
 /*MODELS*/
 .model{
     width: 100%;
     height: 100vh;
-    background-color: cadetblue;
 }
 
 .model .row {
@@ -93,10 +113,35 @@ navbar {
     background-size: 100% !important;
 }
 
+.model-title{
+    font-family: "Zilla-Slab-Bold", "Helvetica Neue", Fallback, sans-serif !important;
+}
+.justify-text{
+    text-align: justify;
+    font-family: "Zilla-Slab", "Helvetica Neue", Fallback, sans-serif !important;
+}
+
+#model1{
+    background-color: #957e55;
+}
+
+#model2{
+    background-color: #0e1412;
+    color : white;
+}
+
+#model3{
+    background-color: #402d2f;
+    color : white;
+}
+
+#model4{
+    background-color: #acc2d7;
+}
 
 /*FOOTER*/
 #footer {
-    background-color: #59819a;
+    background-color: #FDD835;
     color: white;
     padding-top: 20px;
 }
@@ -125,7 +170,6 @@ navbar {
 }
 
 #footer a {
-    color: #d2d1d1;
     text-decoration: none;
 }
 
