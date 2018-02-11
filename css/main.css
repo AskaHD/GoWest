@@ -49,7 +49,7 @@ h1 {
 
 /*Navbar*/
 .navbar {
-    background-color: #FFF375;
+    background-color: #FDD835;
     height: 3em;
 }
 
@@ -202,11 +202,11 @@ h1 {
 }
 
 #footer .fa-facebook:hover {
-    color: #2b55ff;
+    color: #182c39;
 }
 
 #footer .fa-facebook:focus {
-    color: #2b55ff;
+    color: #182c39;
 }
 
 #footer .fa-google-plus:hover {
@@ -218,9 +218,26 @@ h1 {
 }
 
 #footer .fa-twitter:hover {
-    color: #00aced;
+    color: #182c39;
 }
 
 #footer .fa-twitter:focus {
-    color: #00aced;
+    color: #182c39;
+}
+
+
+/*Media*/
+@media (max-width: 768px){
+    .model{
+        display: none;
+    }
+}
+
+@media (max-width: 992px){
+    .description{
+        font-size: 0.9rem;
+    }
+    .nomShoes{
+        font-size: 1.7rem;
+    }
 }
