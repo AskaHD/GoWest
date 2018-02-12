@@ -249,9 +249,18 @@ h1 {
     .nomShoes{
         font-size: 1.7rem;
     }
+
+    .navigation{
+        display: none !important;
+    }
+
+    .parallax{
+        background-position: -40vh center !important;
+    }
 }
 
 @media (max-width: 768px){
+
 }
 
 @media screen and (orientation: landscape) and (max-width: 992px){
