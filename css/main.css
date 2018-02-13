@@ -21,7 +21,6 @@
 body{
     scroll-behavior: smooth;
     font-family: "Lato-Regular", "Helvetica Neue", Fallback, sans-serif !important;
-    font-size: 1.4em !important;
 }
 
 h1 {
@@ -30,6 +29,11 @@ h1 {
 
 /*Index => style des parties principales*/
 
+.carousel-inner{
+    width: 100%;
+    height: 72vh;
+    margin: auto;
+}
 
 .carousel{
     background-color: #289BFF;
@@ -97,10 +101,6 @@ h1 {
     height: 100%;
 }
 
-.vertical-center {
-    padding: 25%;
-}
-
 .parallax {
     padding: 0 !important;
     margin: 0 !important;
@@ -118,6 +118,10 @@ h1 {
 .justify-text{
     text-align: justify;
     font-family: "Zilla-Slab", "Helvetica Neue", Fallback, sans-serif !important;
+}
+
+.model h1 {
+    font-size: 2vw;
 }
 
 #model1{
@@ -234,20 +238,20 @@ h1 {
 /*Media*/
 
 @media (min-width: 1200px) {
-    .carousel-inner{
-        width: 100%;
-        height: 72vh;
-        margin: auto;
+
+    body{
+        font-size: 1.4vw !important;
     }
 }
 
 @media (max-width: 992px){
-    .description{
-        font-size: 0.8rem;
+
+    body{
+        font-size: 1.4vw !important;
     }
 
-    .nomShoes{
-        font-size: 1.7rem;
+    .model h1 {
+        font-size: 3vw;
     }
 
     .navigation{
@@ -259,19 +263,58 @@ h1 {
     }
 }
 
-@media (max-width: 768px){
+@media(max-width: 768px){
+    .parallax{
+        display: none;
+    }
+
+    #model1{
+        background: url("../assets/models/mod1-Mobile.gif") center center;
+        background-size: cover;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+
+    #model2{
+        background: url("../assets/models/mod2-Mobile.gif") center center;
+        background-size: cover;
+        text-shadow: 1px 1px black;
+    }
+
+    #model3{
+        background: url("../assets/models/mod3-Mobile.gif") center center;
+        background-size: cover;
+        text-shadow: 1px 1px black;
+    }
+
+    #model4{
+        background: url("../assets/models/mod4-Mobile.gif") center center;
+        background-size: cover;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
 
 }
 
 @media screen and (orientation: landscape) and (max-width: 992px){
+
+    body{
+        font-size: 1rem !important;
+    }
+
     .carousel-inner{
         width: 100%;
-        height: 100vh;
+        height: 100%;
         margin: auto;
     }
 }
 
-@media screen and (orientation: portrait){
+@media screen and (orientation: portrait) and (max-width: 992px){
+
+    body{
+        font-size: 1.2rem !important;
+    }
+
     .carousel-inner{
         width: 100%;
         height: 30vh;
