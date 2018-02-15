@@ -265,26 +265,26 @@ h1 {
     }
 
     #model1{
-        background: url("../assets/models/mod1-Mobile.gif") center center;
+        background: url("../assets/models/mod1-Mobile.jpg") center center;
         background-size: cover;
         color: white;
         text-shadow: 1px 1px black;
     }
 
     #model2{
-        background: url("../assets/models/mod2-Mobile.gif") center center;
+        background: url("../assets/models/mod2-Mobile.jpg") center center;
         background-size: cover;
         text-shadow: 1px 1px black;
     }
 
     #model3{
-        background: url("../assets/models/mod3-Mobile.gif") center center;
+        background: url("../assets/models/mod3-Mobile.jpg") center center;
         background-size: cover;
         text-shadow: 1px 1px black;
     }
 
     #model4{
-        background: url("../assets/models/mod4-Mobile.gif") center center;
+        background: url("../assets/models/mod4-Mobile.jpg") center center;
         background-size: cover;
         color: white;
         text-shadow: 1px 1px black;
